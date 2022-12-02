@@ -1,0 +1,51 @@
+.Summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.IconFrame{
+    margin-top: 15px;
+    width: 75px;
+    height: 75px;
+    background-color: #7163ba;
+    border-radius: 25px;
+}
+
+.MainIcon{
+    font-size: 50px;
+    height: auto;
+    width: auto;
+    color: white;
+}
+
+.MainHeading{
+    font-size: 30px;
+    font-weight: bold;
+    width: auto;
+    color: #7163ba;
+}
+
+.SubHeading{
+    font-size: 18px;
+    color: #7163ba;
+}
+
+.ProgressStatus{
+    margin-top: 35px;
+    margin-bottom: -10px;
+    margin-left: 350px;
+    font-weight: bold;
+    color: #7163ba;
+}
+
+.Progress{
+    width: 400px;
+    height: 50px;
+    margin-right: 100px;
+    margin-top: -30px;
+}

@@ -1,0 +1,15 @@
+.Header{
+  margin-left: 110px;
+}
+
+.MainHeading{
+  font-size: 30px;
+  font-weight: bold;
+  color: #7163ba;
+  text-align: left;
+}
+
+.SubHeading{
+  font-size: 20px;
+  color: #7163ba;
+}

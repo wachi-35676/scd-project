@@ -1,0 +1,38 @@
+.NavigationBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7163ba;
+    width: 100px;
+    height: 98%; /* Full height */
+    border-radius: 25px;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    /* margin-left: 25px; */
+    /* min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white; */
+  }
+  
+  .Icon{
+    font-size: 100px;
+    height: 50px;
+    color: white;
+  }
+  
+  .IconSelected{
+    padding: 10px;
+    background-color: #5a5080;
+    border-radius: 15px;
+    width: 25px;
+  }
+  
+  .IconFrame{
+    padding-left: 27px;
+    padding-top: 30px;
+    width: 25px;
+  }
