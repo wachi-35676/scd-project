@@ -17,13 +17,13 @@ function Exercise() {
   const [exerciseList, setExerciseList] = useState([]);
   
   useEffect(() => {
-    Axios.get("http://localhost:3001/exercises/exercises").then((response) => {
+    Axios.get("https://my-fitness-app-scd.herokuapp.com/exercises/exercises").then((response) => {
       setExerciseList(response.data);
     });
   }, []);
 
   const createExercise = () => {
-    Axios.post("http://localhost:3001/exercises/create", {
+    Axios.post("https://my-fitness-app-scd.herokuapp.com/exercises/create", {
       exerciseName: exerciseName,
       exerciseDescription: exerciseDescription,
       exerciseDuration: exerciseDuration,
