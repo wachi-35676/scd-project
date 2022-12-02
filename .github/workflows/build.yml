@@ -62,7 +62,7 @@ jobs:
         heroku_email: ${{secrets.HEROKU_EMAIL}}
 
   frontend-deploy:
-    needs: frontend-deploy
+    needs: backend-deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
